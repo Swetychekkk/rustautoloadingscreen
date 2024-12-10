@@ -37,7 +37,7 @@ frame = Frame(root)
 frame.config(bg="#393f45")
 frame.pack()
 btn_change_folder = ttk.Button(frame, text="CHANGE RUST PATH", command=ask_for_path, width=30, style="TButton")
-label_count, label_subtitle = ttk.Label(frame, text="n/a", style="TLabel",width=50), ttk.Label(text="RustAutoLoadingScreen(pb1) by Swetychek", style="TLabel")
+label_count, label_subtitle = ttk.Label(frame, text="n/a", style="TLabel",width=50), ttk.Label(text="RustAutoLoadingScreen(b3) by Swetychek", style="TLabel")
 btn_select = ttk.Button(text="Select files", command=ask_for, width=60, style="TButton")
 
 def ui_pack():

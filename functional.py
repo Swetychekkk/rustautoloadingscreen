@@ -3,10 +3,14 @@ import random
 import configparser
 import os
 
+#values
 list_of_files = []
 path_to_rust = "none"
 
+#config init
 config = configparser.ConfigParser()
+
+#init config values
 def init_functions():
     global path_to_rust, debug
     config.read("config.ini")
